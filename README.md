@@ -2,7 +2,7 @@
 
 **This Repository is a description and tutorial on how adapt and use an Integer-Only Resource-Minimized Recurrent Neural Network Implementation on FPGA. It describes the Tensorflow to Integer-only model conversion and how to use the full HDL implementation. The source files can be found on Zenodo: https://zenodo.org/record/7800728. We also recommend you to read the recently published journal article on this work: https://ieeexplore.ieee.org/iel7/7361/4427201/10161725.pdf**
 
-This repository offers the code for a Recurrent Neural Network Implementation on FPGA, referred to as Integer-Only Resource-Minimized Recurrent Neural Network (RNN), along with a comprehensive guide on its usage in a few easy steps, making it easy to use in sensor applications. Currently, a scientific work disclosing the full details of this RNN is under review, and will be added as a reference in a future date. The RNN is built using one or multiple simple RNN layers followed by a linear layer, utilizing Tensorflow 2.0 (Keras Layers). The guide consists of two parts:
+This repository offers the code for a Recurrent Neural Network Implementation on FPGA, referred to as Integer-Only Resource-Minimized Recurrent Neural Network (RNN), along with a comprehensive guide on its usage in a few easy steps, making it easy to use in sensor applications. The RNN is built using one or multiple simple RNN layers followed by a linear layer, utilizing Tensorflow 2.0 (Keras Layers). The guide consists of two parts:
 
 1.  Python: Tensorflow 2.0 model to integer-only shared-scale RNN conversion and memory extraction.
     
