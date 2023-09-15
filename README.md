@@ -31,7 +31,8 @@ All RNN layers have to be Keras-based "simple RNN" with an equal width, i.e., t
     Non-trainable params: 0
     _______________________
 
-# 1. Python Install pip requirements
+# 1. Python 
+**Install pip requirements**
 
 Before you use any of the Python code, make sure you install the requirements.txt in the Python project folder:
 
