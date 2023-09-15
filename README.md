@@ -128,7 +128,7 @@ After setting the parameters according to your own model in "RNNCommon.sv" the f
 
 After implementing on FPGA, first reset the FPGA with rst\_ext. Hereafter, the RNN automatically starts when you send _I_ single byte SPI messages where the byte contains one data point of the input data. Make sure you repeat transmission of _I_ bytes with SPI for the set amount of timesteps, _Ts,_ and make sure to leave enough time in between (equivalent to that of the actual sensor sampling frequency). When you complete transmission for the set amount of timesteps, send _O_ individual single byte dummy messages, the slave FPGA will then encode the classification results unto these messages.
 
-**3\. Adaptation for other FPGAs**  
+# 3\. Adaptation for other FPGAs
 The supported FPGAs are only those by Lattice (Lattice Semiconductor Inc., Hillsboro OG) because IP modules from this vendor are used. However, if you change the following IPs, Xilinx, Intel FPGAs etc. are compatible:  
 \- pmi\_rom --> "RNNParam.sv", "Tanh.sv"  
 \- pmi\_ram\_dq --> "VecRAM.sv"  
