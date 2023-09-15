@@ -1,4 +1,4 @@
-# IntegerOnlyRNNFPGA
+# An Integer-Only Resource-Minimized RNN on FPGA for Low-Frequency Sensors in Edge-AI
 
 **This Repository is a description of an Integer-Only Resource-Minimized Recurrent Neural Network Implementation on FPGA with Tensorflow to Integer-only model conversion and a full HDL implementation. The source files can be found on Zenodo: https://zenodo.org/record/7800728. We also recommend you to read our recently published journal article on this work: https://ieeexplore.ieee.org/iel7/7361/4427201/10161725.pdf**
 
@@ -31,8 +31,7 @@ All RNN layers have to be Keras-based "simple RNN" with an equal width, i.e., t
     Non-trainable params: 0
     _______________________
 
-**1. Python  
-Install pip requirements**
+# 1. Python Install pip requirements
 
 Before you use any of the Python code, make sure you install the requirements.txt in the Python project folder:
 
@@ -84,7 +83,7 @@ Adjust these parameters according to your own model in "parameters.csv" before r
 
 localparam LAYERS (_L_), LAYER\_WIDTH (_N_), INPUT\_WIDTH (_I_), TIMESTEPS (_Ts_), CLASS\_COUNT (_O_), INPUT\_FREQ (_fs_)
 
-**2\. HDL and implementation on Lattice FPGA**
+# 2\. HDL and implementation on Lattice FPGA
 
 **Module Tree**
 
