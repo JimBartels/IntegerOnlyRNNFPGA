@@ -1,4 +1,4 @@
-# An Integer-Only Resource-Minimized RNN on FPGA for Low-Frequency Sensors in Edge-AI
+# An Integer-Only Resource-Minimized RNN on FPGA for Low-Frequency Sensors in Edge-AI, source files: https://zenodo.org/record/7800728
 
 **This Repository is a description and tutorial on how adapt and use an Integer-Only Resource-Minimized Recurrent Neural Network Implementation on FPGA. It describes the Tensorflow to Integer-only model conversion and how to use the full HDL implementation. The source files can be found on Zenodo: https://zenodo.org/record/7800728. We also recommend you to read the recently published journal article on this work: https://ieeexplore.ieee.org/iel7/7361/4427201/10161725.pdf**
 
